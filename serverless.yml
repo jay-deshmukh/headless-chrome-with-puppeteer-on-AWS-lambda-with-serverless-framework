@@ -1,0 +1,18 @@
+service: scrapper-lambda
+provider:
+  name: aws
+  profile: geescore
+  runtime: nodejs6.10
+
+plugins:
+  - serverless-offline
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: get
+          memorySize: 1536MB
+          timeout: 120s
