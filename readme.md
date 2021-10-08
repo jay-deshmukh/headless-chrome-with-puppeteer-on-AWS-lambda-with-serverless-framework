@@ -22,11 +22,11 @@ When it comes to AWS Lambda function , they have their own limits as follows
 
 
 
-So , When you try to use Puppeteer your deployment package size(unzipped)  easily go's above 250 mb because When you install Puppeteer, it downloads a recent version of Chromium (~170MB Mac, ~282MB Linux, ~280MB Win) that is guaranteed to work with the API.
+So , when you try to use Puppeteer your deployment package size (unzipped) easily goes above 250MB because when you install Puppeteer, it downloads a recent version of Chromium (~170MB Mac, ~282MB Linux, ~280MB Win) that is guaranteed to work with the API.
 
 ## Solution 
 
-Best solution I found for this problem is using this awesome Serverless-framework Headless Chrome Plugin i.e 
+The best solution I found for this problem is using this awesome Serverless-framework Headless Chrome Plugin i.e 
 `serverless-plugin-chrome`
 
 # How ??
@@ -102,7 +102,7 @@ const {getChrome} = require('./chrome-script')
   });
 ```
 
-That's all you can now use puppeteer on aws lambda 
+That's all. You can now use puppeteer on AWS Lambda.
 
 
 ### To Test It Locally 
