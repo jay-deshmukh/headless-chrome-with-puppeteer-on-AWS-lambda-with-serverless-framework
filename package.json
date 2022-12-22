@@ -13,7 +13,7 @@
     "@serverless-chrome/lambda": "^1.0.0-55",
     "chrome-launcher": "^0.10.5",
     "puppeteer": "^1.11.0",
-    "serverless-offline": "^3.31.3",
+    "serverless-offline": "^12.0.3",
     "serverless-plugin-chrome": "^1.0.0-55",
     "superagent": "^4.0.0"
   }
