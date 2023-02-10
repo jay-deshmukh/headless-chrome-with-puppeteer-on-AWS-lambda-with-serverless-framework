@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@serverless-chrome/lambda": "^1.0.0-55",
-    "chrome-launcher": "^0.10.5",
+    "chrome-launcher": "^0.13.2",
     "puppeteer": "^1.11.0",
     "serverless-offline": "^3.31.3",
     "serverless-plugin-chrome": "^1.0.0-55",
